@@ -5,7 +5,17 @@ $(document).ready(function() {
     let input2 = $("#Input2").val();
     let input3 = $("#Input3").val();
     let input4 = $("#Input4").val();
-    alert(input1 + input2 + input3 + input4);
-  });
+    let array = [input1, input2, input3, input4];
+    $("#firstEl").click(function() {
+      $(".output").text(array[0]);
+    });
 
+    $("#secondEl").click(function() {
+      $(".output").text(array[1]);
+    });
+
+    $("#fourthEl").click(function() {
+      $(".output").text(array[3]);
+    });
+  });
 });
