@@ -6,16 +6,20 @@ $(document).ready(function() {
     let input3 = $("#Input3").val();
     let input4 = $("#Input4").val();
     let array = [input1, input2, input3, input4];
+    let array2 = [];
     $("#firstEl").click(function() {
-      $(".output").text(array[0]);
+      array2.push(input1);
+      $(".output").text(array2);
     });
 
     $("#secondEl").click(function() {
-      $(".output").text(array[1]);
+      array2.push(input2);
+      $(".output").text(array2);
     });
 
     $("#fourthEl").click(function() {
-      $(".output").text(array[3]);
+      array2.push(input4);
+      $(".output").text(array2);
     });
   });
 });
