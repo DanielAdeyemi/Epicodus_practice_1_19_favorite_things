@@ -1,4 +1,4 @@
-# Triangle
+## Array manipulations (Favorite things)
 #### *Epicodus Practice lesson #14 (Week 3) on 1/19/2021*
 ***By Daniel Adeyemi, Ashley Porter, Michael Burton***
 
